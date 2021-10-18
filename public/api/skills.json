@@ -17,22 +17,22 @@
     {
         "title": "TypeScript",
         "icon": "img/skills/typescript.svg",
-        "percent": 85
+        "percent": 90
     },
     {
         "title": "React",
         "icon": "img/skills/reactjs.svg",
-        "percent": 90
+        "percent": 95
     },
     {
         "title": "React Native",
         "icon": "img/skills/reactjs.svg",
-        "percent": 60
+        "percent": 70
     },
     {
         "title": "Mobx",
         "icon": "img/skills/mobx.svg",
-        "percent": 90
+        "percent": 100
     },
     {
         "title": "Redux",
@@ -59,7 +59,6 @@
         "icon": "img/skills/jquery.svg",
         "percent": 100
     },
-
     {
         "title": "Figma",
         "icon": "img/skills/figma.svg",
