@@ -1,92 +1,128 @@
 [
     {
-        "title": "HTML",
-        "icon": "img/skills/html5.svg",
-        "percent": 100
-    },
-    {
-        "title": "CSS",
-        "icon": "img/skills/css3.svg",
-        "percent": 100
-    },
-    {
         "title": "JavaScript",
         "icon": "img/skills/javascript.svg",
-        "percent": 90
+        "percent": 90,
+        "isAdditional": false
     },
     {
         "title": "TypeScript",
         "icon": "img/skills/typescript.svg",
-        "percent": 90
+        "percent": 90,
+        "isAdditional": false
     },
     {
         "title": "React",
         "icon": "img/skills/reactjs.svg",
-        "percent": 95
+        "percent": 95,
+        "isAdditional": false
     },
     {
         "title": "React Native",
         "icon": "img/skills/reactjs.svg",
-        "percent": 70
+        "percent": 80,
+        "isAdditional": false
+    },
+    {
+        "title": "Next.js",
+        "icon": "img/skills/nextjs.svg",
+        "percent": 90,
+        "isAdditional": false
     },
     {
         "title": "Mobx",
         "icon": "img/skills/mobx.svg",
-        "percent": 100
+        "percent": 100,
+        "isAdditional": false
     },
     {
         "title": "Redux",
         "icon": "img/skills/redux.svg",
-        "percent": 60
+        "percent": 60,
+        "isAdditional": false
     },
     {
-        "title": "Material UI",
-        "icon": "img/skills/material-ui.svg",
-        "percent": 100
-    },
-    {
-        "title": "GSAP 3",
-        "icon": "img/skills/gsap.svg",
-        "percent": 60
+        "title": "Node.js",
+        "icon": "img/skills/nodejs.svg",
+        "percent": 30,
+        "isAdditional": false
     },
     {
         "title": "Meteor.js",
         "icon": "img/skills/meteorjs.svg",
-        "percent": 20
+        "percent": 20,
+        "isAdditional": false
     },
     {
-        "title": "jQuery",
-        "icon": "img/skills/jquery.svg",
-        "percent": 100
+        "title": "GSAP 3",
+        "icon": "img/skills/gsap.svg",
+        "percent": 60,
+        "isAdditional": false
+    },
+    {
+        "title": "HTML",
+        "icon": "img/skills/html5.svg",
+        "percent": 100,
+        "isAdditional": false
+    },
+    {
+        "title": "CSS",
+        "icon": "img/skills/css3.svg",
+        "percent": 100,
+        "isAdditional": false
+    },
+    {
+        "title": "Material UI",
+        "icon": "img/skills/material-ui.svg",
+        "percent": 100,
+        "isAdditional": false
     },
     {
         "title": "Figma",
         "icon": "img/skills/figma.svg",
-        "percent": 95
+        "percent": 95,
+        "isAdditional": false
+    },
+    {
+        "title": "jQuery",
+        "icon": "img/skills/jquery.svg",
+        "percent": 100,
+        "isAdditional": true
+    },
+    {
+        "title": "Bootstrap",
+        "icon": "img/skills/bootstrap.svg",
+        "percent": 80,
+        "isAdditional": true
     },
     {
         "title": "Zeplin",
         "icon": "img/skills/zeplin.svg",
-        "percent": 100
+        "percent": 100,
+        "isAdditional": true
     },
     {
         "title": "Illustrator",
         "icon": "img/skills/illustrator.svg",
-        "percent": 85
+        "percent": 85,
+        "isAdditional": true
     },
     {
         "title": "Adobe XD",
         "icon": "img/skills/xd.svg",
-        "percent": 90
+        "percent": 90,
+        "isAdditional": true
     },
     {
         "title": "Photoshop",
         "icon": "img/skills/photoshop.svg",
-        "percent": 99
+        "percent": 99,
+        "isAdditional": true
     },
     {
         "title": "MODX Revo",
         "icon": "img/skills/modx.svg",
-        "percent": 80
+        "percent": 80,
+        "isAdditional": true
     }
 ]

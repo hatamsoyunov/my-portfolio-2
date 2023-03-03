@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 import AnimElement from 'components/anim-elements';
 
-function Skill({ icon, title, percent }) {
+function Skill({ icon, title, percent, isAdditional }) {
 	return (
 		<div className="skills__col">
-			<AnimElement className="skill-item">
+			<AnimElement className={`skill-item ${isAdditional&& 'skill-item--small'}`}>
 				<div className="skill-item__img-wrap">
 					<img src={icon} alt="" />
 				</div>

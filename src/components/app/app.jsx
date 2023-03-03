@@ -15,7 +15,7 @@ import Menu from 'components/menu';
 import Cursor from 'components/cursor';
 import RightBar from 'components/right-bar';
 import Footer from 'components/footer';
-import Home from 'components/pages/home';
+import Home from 'screens/home';
 import Project from 'components/pages/project';
 import NotFound from 'components/pages/not-found';
 

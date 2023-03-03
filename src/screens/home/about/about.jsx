@@ -1,5 +1,5 @@
 import React from 'react';
-import yearCalc from '../../../../utils/yearCalc';
+import yearCalc from '../../../utils/yearCalc';
 
 import './about.sass';
 
@@ -14,7 +14,7 @@ function About(props) {
                 <div className="about__content">
                     <p>
                         My name is <strong>Hatam!</strong> I have been working for more than
-                        <strong> {yearCalc(2016)} years</strong> in <strong>front-end development </strong>
+                        <strong> {yearCalc(2016)} years</strong> in <strong>frontend development </strong>
                         with commercial projects and more than <strong>{yearCalc(2014)} years</strong> in web development in general. During
                         all this time I managed to work in several web studios and freelance platforms, got a big experience in a team,
                         extensive experience in working with clients, introduce a project from the beginning to the end.
@@ -39,7 +39,7 @@ function About(props) {
                         . Currently I am practicing in developing mobile applications
                     </p>
                     <p>My technical English is good. I practice speaking, take courses. My language level is elementary.</p>
-                    {/* <p>The last work place was web studio “Lained” in the position of “Head of Front-end development. "</p> */}
+                    {/* <p>The last work place was web studio “Lained” in the position of “Head of Frontend development. "</p> */}
                     <h4>
                         <span role="img" aria-label="">
                             💪
@@ -75,7 +75,7 @@ function About(props) {
                         <li>Extensive experience in using HTML preprocessor (template engine) - PUG and CSS preprocessor - SASS.</li>
                         <li>
                             Compiling and packing standard websites using my Gulp Builder -{' '}
-                            <a href="https://github.com/hattamsoyunov/start_dev" terget="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/hatamsoyunov/start_dev" terget="_blank" rel="noopener noreferrer">
                                 start_dev
                             </a>
                             .

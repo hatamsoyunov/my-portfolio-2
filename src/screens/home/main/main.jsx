@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { withRouter } from 'react-router-dom';
 import VanillaTilt from 'vanilla-tilt';
 import gsap from 'gsap';
-import yearCalc from '../../../../utils/yearCalc';
+import yearCalc from '../../../utils/yearCalc';
 
 import ScrollToNext from 'components/scroll-to-next';
 import Reveal from 'components/reveal';
@@ -28,10 +28,9 @@ function Main(props) {
         if (window.outerWidth > 1024) {
             VanillaTilt.init(mainImg.current, {
                 max: 6,
-                speed: 1500,
+                speed: 1700,
                 glare: true,
-                axis: 'x',
-                'max-glare': 0.15,
+                'max-glare': 0.2,
             });
         }
     });
@@ -49,7 +48,7 @@ function Main(props) {
                                 my name is <span>Hatam Soyunov</span>,
                             </Reveal>
                             <Reveal delay={0.6} color={Color.c1}>
-                                I'm <span>front-end</span> developer
+                                I'm <span>frontend</span> developer
                             </Reveal>
                         </h1>
                         <h3 className="main__subtitle">

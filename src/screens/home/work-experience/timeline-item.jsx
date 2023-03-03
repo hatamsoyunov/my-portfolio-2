@@ -10,15 +10,14 @@ function TimelineItem({ date, title, company, isStart, isLast }) {
             <h3 className="timeline-item__title">{title}</h3>
             <div className="timeline-item__company">{company}</div>
 
-            {isStart ? (
+            {isLast && <div className="timeline-item__last-line"></div>}
+
+            {isStart && (
                 <div>
                     <div className="timeline-item__start-dot"></div>
                     <div className="timeline-item__start-line"></div>
                 </div>
-            ) : (
-                ''
             )}
-            {isLast ? <div className="timeline-item__last-line"></div> : ''}
         </AnimElement>
     );
 }

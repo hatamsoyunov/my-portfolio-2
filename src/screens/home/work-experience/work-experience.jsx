@@ -15,8 +15,8 @@ function TimelineItemsList({ workExperiences }) {
 			{workExperiences.map(({ date, title, company }, index) => (
 				<TimelineItem
 					key={index}
-					isStart={index === workExperiences.length - 1}
 					isLast={index === 0}
+					isStart={index === workExperiences.length - 1}
 					date={date}
 					title={title}
 					company={company}
