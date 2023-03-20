@@ -42,7 +42,7 @@
 			margin-bottom: 0
 		span
 			color: $c1
-				line-height: 4.9vw
+			line-height: 4.9vw
 
 	&__subtitle
 		font-size: 1.87vw // 36px
@@ -77,7 +77,6 @@
 		+xsm
 			margin-bottom: 0
 
-
 	&__img-wrap
 		position: relative
 		width: 26.042vw
@@ -98,7 +97,8 @@
 			height: 270px
 			margin-right: 20px
 			margin-bottom: 70px
-			will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(-5.64deg) scale3d(1, 1, 1);
+			transform: perspective(1000px) rotateX(0deg) rotateY(-5.64deg) scale3d(1, 1, 1)
+			will-change: transform
 			animation: avatar_animation 2.2s ease-in-out infinite 2s alternate
 		+sm
 			width: 250px
@@ -151,15 +151,15 @@
 		border-radius: 50%
 		transform: translateZ(31px) scale(0.938)
 
-
 	.block-reveal
 		&__block
 			top: 4%
 			width: 101%
 
-
 @keyframes avatar_animation
 	0%
-		will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(-5.64deg) scale3d(1, 1, 1);
+		transform: perspective(1000px) rotateX(0deg) rotateY(-5.64deg) scale3d(1, 1, 1)
+		will-change: transform
 	100%
-		will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(6deg) scale3d(1, 1, 1);
+		transform: perspective(1000px) rotateX(0deg) rotateY(6deg) scale3d(1, 1, 1)
+		will-change: transform

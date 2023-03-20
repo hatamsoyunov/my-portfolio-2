@@ -14,7 +14,7 @@
 		padding-top: 110px
 	+xsm
 		padding-top: 100px
-	
+
 	&__row
 		display: flex
 		flex-wrap: wrap
@@ -29,6 +29,7 @@
 		+lg
 			max-height: none
 			height: auto
+
 	&__col
 		&:nth-child(1)
 			flex: 1 1 33%
@@ -41,7 +42,6 @@
 			+lg
 				flex: 1 1 100%
 				max-width: 100%
-
 
 		&:nth-child(2)
 			flex: 1 1 67%
@@ -59,7 +59,7 @@
 		font-size: 44px
 		line-height: 50px
 		font-weight: 700
-		margin-bottom: 0 !important
+		margin-bottom: 8px !important
 		+xxxl
 			font-size: 40px
 			line-height: 46px
@@ -75,6 +75,14 @@
 		+xsm
 			font-size: 24px
 			line-height: 30px
+
+		& sup
+			font-size: 18px
+			line-height: 22px
+			vertical-align: top
+			+lg
+				font-size: 16px
+				line-height: 20px
 
 	&__types
 		color: $c2
@@ -151,7 +159,8 @@
 			padding-right: 0
 		+lg
 			margin-bottom: 50px
-			will-change: transform; transform: perspective(1000px) rotateX(-4.56deg) rotateY(4.66deg) scale3d(1, 1, 1);
+			transform: perspective(1000px) rotateX(-4.56deg) rotateY(4.66deg) scale3d(1, 1, 1)
+			will-change: transform
 			animation: project-img-tilt 6s ease-in-out 1s infinite
 		+md
 			justify-content: flex-start
@@ -243,7 +252,7 @@
 			+sm
 				width: 22vw
 				height: 37.6vw
-			
+
 			&:after
 				+xsm
 					font-size: 12px
@@ -261,19 +270,34 @@
 			opacity: 0
 			transition: all .4s ease
 			z-index: -1
-	
+
+		&--mobile
+			.project
+				&__img
+					&-main
+						border: none
+						img
+							width: 100%
+							height: 100%
+							object-fit: cover
+
 	.scroll-btn
 		+md
 			display: none
 
 @keyframes project-img-tilt
 	0%
-		will-change: transform; transform: perspective(1000px) rotateX(-4.56deg) rotateY(4.66deg) scale3d(1, 1, 1);
+		transform: perspective(1000px) rotateX(-4.56deg) rotateY(4.66deg) scale3d(1, 1, 1)
+		will-change: transform
 	25%
-		will-change: transform; transform: perspective(1000px) rotateX(-4.28deg) rotateY(-4.2deg) scale3d(1, 1, 1);
+		transform: perspective(1000px) rotateX(-4.28deg) rotateY(-4.2deg) scale3d(1, 1, 1)
+		will-change: transform
 	50%
-		will-change: transform; transform: perspective(1000px) rotateX(5deg) rotateY(-4.53deg) scale3d(1, 1, 1);
+		transform: perspective(1000px) rotateX(5deg) rotateY(-4.53deg) scale3d(1, 1, 1)
+		will-change: transform
 	75%
-		will-change: transform; transform: perspective(1000px) rotateX(4.7deg) rotateY(4.74deg) scale3d(1, 1, 1);
+		transform: perspective(1000px) rotateX(4.7deg) rotateY(4.74deg) scale3d(1, 1, 1)
+		will-change: transform
 	100%
-		will-change: transform; transform: perspective(1000px) rotateX(-4.56deg) rotateY(4.66deg) scale3d(1, 1, 1);
+		transform: perspective(1000px) rotateX(-4.56deg) rotateY(4.66deg) scale3d(1, 1, 1)
+		will-change: transform

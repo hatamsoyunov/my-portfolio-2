@@ -1,32 +1,37 @@
 [
     {
-        "id": "proj_014",
-        "slug": "filippovadesign",
-        "title": "Filippova Design",
+        "id": "proj_015",
+        "slug": "divo",
+        "title": "DIVO.",
+        "isOld": false,
+        "type": "mobile",
         "types": [
             "#frontend",
-            "#backend"
+            "#ios",
+            "#android"
         ],
-        "desc": "Business website with for \"Filippova Design\". Presented on the website company services, projects, client testimonials. CMS system - MODX Revo",
-        "client": "Sofya - Filippova Design",
+        "desc": "Mobile app for the fashion industry. The ability to create in the application NFT of the photo, as well as sell them for the internal cryptocurrency DIVO. Multifunctional chat, which also allows you to transfer funds in DIVO token from one user's wallet to another user's wallet. Radar - allows you to track users who are at the same time and in the same place with you and then arrange a meeting.",
+        "client": "OOO \"NETI\"",
         "toolsList": [
-            "#jq",
-            "#modx",
-            "#GSAP",
-            "#fancybox",
-            "#pug",
-            "#sass",
-            "#bootstrapgrid",
-            "#flexbox"
+            "#rn",
+            "#mobx",
+            "#i18n",
+            "#crypto",
+            "#pushnotification",
+            "#chat",
+            "#imagepicker",
+            "#lottie"
         ],
-        "link": "https://filippovadesign.ru/",
-        "addImagesQty": 3,
+        "link": "https://mobile.i-neti.ru/projects/divo",
+        "addImagesQty": 0,
         "addMobileImagesQty": 0
     },
     {
         "id": "proj_013",
         "slug": "filshop",
         "title": "FILSHOP",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend",
             "#backend"
@@ -43,7 +48,7 @@
             "#bootstrapgrid",
             "#flexbox"
         ],
-        "link": "https://filippovashop.ru/",
+        "link": "",
         "addImagesQty": 3,
         "addMobileImagesQty": 4
     },
@@ -51,6 +56,8 @@
         "id": "proj_012",
         "slug": "lained",
         "title": "Lained",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -73,6 +80,8 @@
         "id": "proj_011",
         "slug": "forthedigitals",
         "title": "For The Digitals",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -86,7 +95,7 @@
             "#bootstrapgrid",
             "#flexbox"
         ],
-        "link": "https://www.forthedigital.com/",
+        "link": "",
         "addImagesQty": 7,
         "addMobileImagesQty": 4
     },
@@ -94,6 +103,8 @@
         "id": "proj_010",
         "slug": "gatsby",
         "title": "Gatsby",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend",
             "#backend"
@@ -116,6 +127,8 @@
         "id": "proj_005",
         "slug": "luxury-marketing",
         "title": "Luxury Marketing",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -130,7 +143,7 @@
             "#bootstrapgrid",
             "#flexbox"
         ],
-        "link": "http://digitalluxmarketing.com/",
+        "link": "",
         "addImagesQty": 6,
         "addMobileImagesQty": 2
     },
@@ -138,6 +151,8 @@
         "id": "proj_009",
         "slug": "sozdateli",
         "title": "Sozdateli",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -161,6 +176,8 @@
         "id": "proj_008",
         "slug": "vernadsky",
         "title": "Vernadsky",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -186,6 +203,8 @@
         "id": "proj_015",
         "slug": "filschool",
         "title": "FILSCHOOL",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend",
             "#backend"
@@ -202,7 +221,7 @@
             "#bootstrapgrid",
             "#flexbox"
         ],
-        "link": "https://filschool.ru/",
+        "link": "",
         "addImagesQty": 6,
         "addMobileImagesQty": 6
     },
@@ -210,6 +229,8 @@
         "id": "proj_007",
         "slug": "impecco",
         "title": "Impecco",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -224,7 +245,7 @@
             "#bootstrapgrid",
             "#flexbox"
         ],
-        "link": "https://impecco.ru/",
+        "link": "",
         "addImagesQty": 9,
         "addMobileImagesQty": 5
     },
@@ -232,6 +253,8 @@
         "id": "proj_014",
         "slug": "azago",
         "title": "Azago",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#design",
             "#frontend",
@@ -257,6 +280,8 @@
         "id": "proj_006",
         "slug": "dss-corp",
         "title": "DSS Corp",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -270,7 +295,7 @@
             "#bootstrapgrid",
             "#flexbox"
         ],
-        "link": "https://dss.group/",
+        "link": "",
         "addImagesQty": 0,
         "addMobileImagesQty": 0
     },
@@ -278,6 +303,8 @@
         "id": "proj_004",
         "slug": "russian-photo-awards",
         "title": "Russian Photo Awards",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -298,6 +325,8 @@
         "id": "proj_003",
         "slug": "sushi100",
         "title": "Sushi100",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#design",
             "#frontend",
@@ -320,6 +349,8 @@
         "id": "proj_002",
         "slug": "yteam",
         "title": "YTeam",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -341,6 +372,8 @@
         "id": "proj_001",
         "slug": "homefash",
         "title": "HOMEFASH",
+        "isOld": true,
+        "type": "web",
         "types": [
             "#frontend"
         ],
@@ -354,7 +387,7 @@
             "#bootstrapgrid",
             "#flexbox"
         ],
-        "link": "http://dev.hattam.ru/projects/homefash/",
+        "link": "",
         "addImagesQty": 7,
         "addMobileImagesQty": 0
     }

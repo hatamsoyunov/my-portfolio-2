@@ -4,111 +4,120 @@ import yearCalc from '../../../utils/yearCalc';
 import './about.sass';
 
 function About(props) {
-    return (
-        <section id="about" className="about">
-            <div className="container">
-                <h2 className="about__title" data-title="About me">
-                    About me
-                </h2>
+  return (
+    <section id="about" className="about">
+      <div className="container">
+        <h2 className="about__title" data-title="About me">
+          About me
+        </h2>
 
-                <div className="about__content">
-                    <p>
-                        My name is <strong>Hatam!</strong> I have been working for more than
-                        <strong> {yearCalc(2016)} years</strong> in <strong>frontend development </strong>
-                        with commercial projects and more than <strong>{yearCalc(2014)} years</strong> in web development in general. During
-                        all this time I managed to work in several web studios and freelance platforms, got a big experience in a team,
-                        extensive experience in working with clients, introduce a project from the beginning to the end.
-                    </p>
-                    <p>
-                        In 2019, I graduated from the university with a degree in marketing (I took extra courses in Internet marketing and
-                        web design marketing). Now I go on studying for a master's degree in Human Resource management. My goal is to get a
-                        certificate confirming my experience.
-                    </p>
-                    <p>
-                        In June 2020, I completed a course on <strong>React Native</strong> and received a{' '}
-                        <a
-                            href="https://www.udemy.com/certificate/UC-b8b2368f-3d4b-4c7c-87da-bdda3f6d838b/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            certificate
-                        </a>{' '}
-                        <span role="img" aria-label="">
-                            😎
-                        </span>
-                        . Currently I am practicing in developing mobile applications
-                    </p>
-                    <p>My technical English is good. I practice speaking, take courses. My language level is elementary.</p>
-                    {/* <p>The last work place was web studio “Lained” in the position of “Head of Frontend development. "</p> */}
-                    <h4>
-                        <span role="img" aria-label="">
-                            💪
-                        </span>{' '}
-                        My Skills:
-                    </h4>
-                    <ul>
-                        <li>More than {yearCalc(2014)} years in the web development area. </li>
-                        <li>Good technical English.</li>
-                        <li>
-                            Extensive experience in creating complex, functional, beautiful and animated UI/UX interfaces and responsive
-                            sites.
-                        </li>
-                        <li>Creating responsive web applications.</li>
-                        <li>
-                            Development on React / React Native (Mobx, Redux, Hooks, Context, Formik, Transition Group, scrollmonitor). CSS,
-                            SASS, inline styles.
-                        </li>
-                        <li>Material UI</li>
-                        <li>Little experience Meteor.js + !React.js + storybook + MongoDB - a site for renting real estate in New York.</li>
-                        <li>Good knowledge of TypeScript.</li>
-                        <li>
-                            Advanced level HTML (HTML5 API, good understanding of semantic tags) / CSS (flexbox, grid, advanced css
-                            animations) / JS (JQ, ES6).
-                        </li>
-                        <li>
-                            JS animation, good knowledge of GSAP 2-3.x (Timeline, ScrambleTextPlugin, ScrollToPlugin, SplitText).
-                            MagicScroll with GSAP.
-                        </li>
-                        <li>Great experience in Photoshop/Figma/Adobe XD graphic editors. And also, Zeplin.</li>
-                        <li>Experience in working with task managers: Trello ***, Jira *, Bitix24 *.</li>
-                        <li>Extensive experience in operating the BEM system (naming and file structure).</li>
-                        <li>Extensive experience in using HTML preprocessor (template engine) - PUG and CSS preprocessor - SASS.</li>
-                        <li>
-                            Compiling and packing standard websites using my Gulp Builder -{' '}
-                            <a href="https://github.com/hatamsoyunov/start_dev" terget="_blank" rel="noopener noreferrer">
-                                start_dev
-                            </a>
-                            .
-                        </li>
-                        <li>Good knowledge of vector graphics, SVG, SVG srites with "use", I work confidently in Adobe Illustrator.</li>
-                    </ul>
+        <div className="about__content">
+          <p>
+            I've been in IT for over <strong> {yearCalc(2015)} years</strong>, in frontend development with commercial
+            projects for over <strong> {yearCalc(2017)} years</strong> years. I've been actively developing mobile apps
+            (React Native) for the last <strong> {yearCalc(2021)} years</strong>. During all this time I managed to work
+            independently as a freelancer and worked for several small and large companies. I have a lot of experience
+            in working with clients, introduce the project from start to finish, a lot of experience in teamwork and
+            managing a team of developers.
+          </p>
+          <p>
+            In 2019 I graduated from the university with a degree in marketing. Also, completed additional courses in
+            Internet marketing, marketing in web design and UI/UX design. Knowledge of UI/UX, in conjunction with
+            marketing, helped me develop selling websites and help in recent years to add/suggest UI/UX improvements to
+            projects in which I participate.
+          </p>
+          <p>
+            In mid-2019, I became familiar with reactive JavaScript frameworks (Meteor.js + React.js). Since then then I
+            started practicing and developing reactive web applications in React.js.
+          </p>
+          <p>
+            In mid-2020 I completed a course on React Native and started practicing. For the last{' '}
+            <strong> {yearCalc(2020)} years</strong> I've been actively developing mobile apps.
+          </p>
 
-                    <h4>
-                        <span role="img" aria-label="">
-                            😎
-                        </span>{' '}
-                        Why should you work with me? <br />{' '}
-                        <span role="img" aria-label="">
-                            🛡
-                        </span>{' '}
-                        I guarantee:
-                    </h4>
-                    <ul>
-                        <li>Fast and professional work.</li>
-                        <li>Timely implementation of tasks and projects.</li>
-                        <li>Attention to details!</li>
-                        <li>Wise perfectionism (I try to achieve the ideal only if it is a priority).</li>
-                        <li>
-                            Clean code with semantic classes and comments so in the future any other developer can easily understand my
-                            code. It's hard for me to leave bad code or mess in the code without fixing it.
-                        </li>
-                        <li>My policy is “Quality always comes first.”</li>
-                        <li>I am ambitious and enjoy new challenges :)</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    );
+          <h4>
+            <span role="img" aria-label="">
+              💪
+            </span>{' '}
+            My Skills:
+          </h4>
+          <ul>
+            <li>
+              The ability to search for the right information. Search mostly in English, know where to look depending on
+              the question/problem;
+            </li>
+            <li>Good technical English;</li>
+            <li>
+              Extensive experience with BEM system (naming and file structure), helps with naming components, methods
+              and variables;
+            </li>
+            <li>
+              Extensive experience in developing complex and adaptive websites/web applications. Developing web
+              applications on React.js (+ Hooks, Axios, MobX, Redux);
+            </li>
+            <li>Good experience in developing web applications on Next.js;</li>
+            <li>Good experience in mobile development with React Native (+ Mobx);</li>
+            <li>
+              Advanced HTML (HTML5 API, good understanding of semantic tags), CSS (flexbox, grid, advanced css
+              animations), JavaScript (JQ, ES6);
+            </li>
+            <li>
+              Excellent knowledge of JavaScript and TypeScript. Almost all web and mobile applications in TypeScript;{' '}
+            </li>
+            <li>Modular development system. Experience in mvc and mvvm;</li>
+            <li>Experience with task managers: Jira (+Confluence) and Trello;</li>
+
+            <h4>+ Additional</h4>
+            <li>
+              JS animation, GSAP 2-3.x (Timeline, ScrambleTextPlugin, ScrollToPlugin, SplitText). MagicScroll with GSAP;
+            </li>
+            <li>
+              Little experience with Meteor.js + React.js + storybook + MongoDB - New York real estate rental site;
+            </li>
+            <li>
+              A lot of experience with Photoshop/Figma/Adobe XD graphic editors. As well as, Zeplin for easy layout;
+            </li>
+            <li>
+              Good knowledge in vector graphics, SVG, SVG sprites with "use", working confidently in Adobe Illustrator;
+            </li>
+            <li>Extensive experience using HTML (PUG) and CSS preprocessors (SASS, SASS);</li>
+            <li>
+              If necessary I build standard websites using my starting template on Gulp -{' '}
+              <a href="https://github.com/hatamsoyunov/start_dev" target="_blank" rel="noopener noreferrer">
+                start_dev
+              </a>
+              .
+            </li>
+          </ul>
+
+          <h4>
+            Why should you work with me? <br /> I guarantee:{' '}
+            <span role="img" aria-label="">
+              😎
+            </span>
+          </h4>
+          <ul>
+            <li>fast and professional work;</li>
+            <li>timely implementation of my tasks;</li>
+            <li>do not go beyond the time frame of the task;</li>
+            <li>
+              perfectionism within reason (I do not try to achieve perfection, I will go too far if the project/client
+              requires it);
+            </li>
+            <li>
+              clean code, with comments in the right place - I myself wrote a code style for a company and required in
+              the code review. It is important that the code{' '}
+            </li>
+            <li>
+              my principle is "Quality always comes first", if the project manager doesn't think so, it will be hard for
+              us to work together.
+            </li>
+            <li>I am ambitious and like new challenges and challanges :)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default About;

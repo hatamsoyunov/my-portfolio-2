@@ -25,59 +25,59 @@ gsap.registerPlugin(ScrollToPlugin);
 const projectService = new ProjectService();
 
 function App(props) {
-    useEffect(() => {
-        const hash = props.location.hash;
+  useEffect(() => {
+    const hash = props.location.hash;
 
-        if (hash !== '' && props.pageIsLoaded) {
-            // reset current/default scroll position
-            gsap.to(window, 0, { scrollTo: 0 });
+    if (hash !== '' && props.pageIsLoaded) {
+      // reset current/default scroll position
+      gsap.to(window, 0, { scrollTo: 0 });
 
-            // animation scroll
-            gsap.to(window, 1, {
-                scrollTo: document.querySelector(hash).offsetTop,
-                ease: 'expo.out',
-            });
+      // animation scroll
+      gsap.to(window, 1, {
+        scrollTo: document.querySelector(hash).offsetTop,
+        ease: 'expo.out',
+      });
 
-            // remove hash
-            window.history.pushState('', document.title, window.location.pathname);
-        }
-    }, [props]);
+      // remove hash
+      window.history.pushState('', document.title, window.location.pathname);
+    }
+  }, [props]);
 
-    return (
-        <Fragment>
-            <div className="bg-lines">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+  return (
+    <Fragment>
+      <div className="bg-lines">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
 
-            <Preloader />
-            <LeftBar />
-            <RightBar />
-            <Menu />
+      <Preloader />
+      <LeftBar />
+      <RightBar />
+      <Menu />
 
-            <ProjectServiceProvider value={projectService}>
-                <TransitionGroup component={Fragment}>
-                    <CSSTransition key={props.location.key} timeout={600} classNames="page">
-                        <Switch location={props.location}>
-                            <Route exact path="/" component={Home} />
-                            <Route path="/projects/:slug" component={Project} />
-                            <Route component={NotFound} />
-                        </Switch>
-                    </CSSTransition>
-                </TransitionGroup>
-            </ProjectServiceProvider>
+      <ProjectServiceProvider value={projectService}>
+        <TransitionGroup component={Fragment}>
+          <CSSTransition key={props.location.key} timeout={600} classNames="page">
+            <Switch location={props.location}>
+              <Route exact path="/" component={Home} />
+              <Route path="/projects/:slug" component={Project} />
+              <Route component={NotFound} />
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
+      </ProjectServiceProvider>
 
-            <Cursor />
-            <Footer />
-        </Fragment>
-    );
+      <Cursor />
+      <Footer />
+    </Fragment>
+  );
 }
 
-const mapStateToProps = state => {
-    return {
-        pageIsLoaded: state.pageIsLoaded,
-    };
+const mapStateToProps = (state) => {
+  return {
+    pageIsLoaded: state.pageIsLoaded,
+  };
 };
 
 export default connect(mapStateToProps, null)(withRouter(App));
